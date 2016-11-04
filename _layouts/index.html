@@ -11,7 +11,7 @@
     <title>Jens Piegsa</title>
   </head>
 
-  <body>
+  <body onload="lastModified();">
 
     <header>
       <div class="container">
@@ -24,6 +24,16 @@
         {{content}}
       </section>
     </div>
+    
+    <p id="footer"></p>
+
+	<script>
+	function lastModified() {
+		if(document.lastModified) {
+		    document.getElementById('footer').innerHTML = new Date(document.lastModified).toLocaleString();
+		}
+	}
+	</script>
 
   </body>
 </html>
