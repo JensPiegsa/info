@@ -1,4 +1,6 @@
-> **Jens Piegsa**. Software Craftsman at the University Medicine Greifswald with experience in Java web technologies, data integration, metadata management and continuous integration, currently building the transfer unit for the NAKO health study.
+# About
+
+**Jens Piegsa**. Software Craftsman at the University Medicine Greifswald with experience in Java web technologies, data integration, metadata management and continuous integration, currently building the transfer unit for the NAKO health study.
 
 # Stuff
 
