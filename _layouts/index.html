@@ -23,14 +23,14 @@
       <section id="main_content">
         {{content}}
       </section>
+	  <p id="footer"></p>
     </div>
     
-    <p id="footer"></p>
 
 	<script>
 	function lastModified() {
 		if(document.lastModified) {
-		    document.getElementById('footer').innerHTML = new Date(document.lastModified).toLocaleString();
+		    document.getElementById('footer').innerHTML = "Last modified at " + new Date(document.lastModified).toLocaleString() + ".";
 		}
 	}
 	</script>
