@@ -1,6 +1,6 @@
 html {
 	height: 100%;
-	font-size: 34.5%;
+	font-size: 42%;
 }
 
 @media (min-width: 800px) {
@@ -23,13 +23,13 @@ body {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
   
 @media ( -webkit-min-device-pixel-ratio : 2) , ( min-resolution : 192dpi) {
 	body {
-		font-size: 250%;
+		font-size: 300%;
 	}
 }
 
@@ -37,8 +37,14 @@ body {
 
 .container {
   width: 90%;
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
+}
+
+@media (orientation: portrait)  {
+	.container {
+		max-width:90rem;
+	}
 }
 
 section {
@@ -261,11 +267,13 @@ body > hr {
 }
 
 #footer {
-    margin: 0 auto;
-    max-width: 60rem;
-    width: 90%;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 header img {
 	border-radius:50%; margin: 0 0 -1.8rem 21rem;
+}
+@media (orientation: portrait)  {
+	header img {
+		margin-left:47rem;
+	}
 }
