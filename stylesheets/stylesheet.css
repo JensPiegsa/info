@@ -67,7 +67,7 @@ header {
 }
 
 header h1 {
-	font-size: 3rem;
+	font-size: 3.2rem;
 	line-height: 1.5;
 	margin: 0;
 	font-weight: bold;
@@ -79,7 +79,7 @@ header h1 {
 
 header h2 {
 	font-size: 1.8rem;
-	font-weight: 300;
+	font-weight: bold;
 	color: #666;
 }
 
@@ -275,5 +275,5 @@ header h1 span, header h1 img {
 	margin-right: .5rem;
 }
 header h1 img {
-	margin-right: 2.5rem;
+	margin-right: 3.5rem;
 }
