@@ -26,8 +26,7 @@ body {
 	font-size: 1.9rem;
 }
 
-@media ( -webkit-min-device-pixel-ratio : 2) , ( min-resolution :
-	192dpi) {
+@media ( -webkit-min-device-pixel-ratio : 2) , ( min-resolution : 192dpi) {
 	body {
 		font-size: 300%;
 	}
@@ -72,11 +71,8 @@ header h1 {
 	line-height: 1.5;
 	margin: 0;
 	font-weight: bold;
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
-		Terminal, monospace;
 	color: #b5e853;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px
-		rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
 	letter-spacing: -1px;
 	-webkit-font-smoothing: antialiased;
 }
@@ -106,12 +102,9 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
-		Terminal, monospace;
 	color: #b5e853;
 	letter-spacing: -0.03em;
-	text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.1), 0 0 .5rem
-		rgba(181, 232, 83, 0.1), 0 0 1rem rgba(181, 232, 83, 0.1);
+	text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.1), 0 0 .5rem rgba(181, 232, 83, 0.1), 0 0 1rem rgba(181, 232, 83, 0.1);
 }
 
 #main_content h1 {
@@ -154,9 +147,7 @@ ul li {
 
 ul li:before {
 	content: ">>";
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
-		Terminal, monospace;
-	font-size: 1.3rem;
+	font-size: 2rem;
 	color: #b5e853;
 	margin-left: -3.7rem;
 	margin-right: 2.1rem;
@@ -205,8 +196,6 @@ hr {
 	color: #b5e853;
 }
 
-/* Buttons
-*/
 .btn {
 	display: inline-block;
 	background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3),
@@ -250,7 +239,6 @@ a {
 	text-shadow: 0 0 .5rem rgba(104, 182, 255, 0.5);
 }
 
-/* Clearfix */
 .cf:before, .cf:after {
 	content: "";
 	display: table;
@@ -284,5 +272,8 @@ header h1 {
 
 header h1 span, header h1 img {
 	display: block;
-	margin-right: 1rem;
+	margin-right: .5rem;
+}
+header h1 img {
+	margin-right: 2.5rem;
 }
