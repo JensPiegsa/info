@@ -147,7 +147,7 @@ ul li {
 
 ul li:before {
 	content: ">>";
-	font-size: 2rem;
+	font-size: 1.8rem;
 	color: #b5e853;
 	margin-left: -3.7rem;
 	margin-right: 2.1rem;
@@ -257,7 +257,7 @@ body>hr {
 }
 
 #footer {
-	font-size: 2.1rem;
+	font-size: 1.8rem;
 }
 
 header img {
