@@ -251,3 +251,6 @@ body > hr {
     width: 90%;
     font-size: 80%;
 }
+header img {
+	border-radius:50%; margin: 0 0 -18px 210px;
+}
