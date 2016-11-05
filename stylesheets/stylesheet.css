@@ -1,50 +1,62 @@
+html {
+	height: 100%;
+	font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
-  font: 16px;
   line-height: 1.5;
   font-family: Cousine, monospace;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-size: 1.6rem;
+}
+
+@media ( -webkit-min-device-pixel-ratio : 2) , ( min-resolution : 192dpi) {
+	body {
+		font-size: 250%;
+	}
 }
 
 /* General & 'Reset' Stuff */
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
 section {
   display: block;
-  margin: 0 0 20px 0;
+  margin: 0 0 2rem 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
+  margin: 0 0 2rem;
 }
 
 li {
   line-height: 1.4 ;
 }
 
-/* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
-*/
-
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
   border-bottom: 1px dashed #b5e853;
-  padding: 20px 0;
-  margin: 0 0 40px 0;
+  padding: 2rem 0;
+  margin: 0 0 4rem 0;
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 3rem;
   line-height: 1.5;
   margin: 0;
   font-weight: bold;
@@ -58,7 +70,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 300;
   color: #666;
 }
@@ -85,38 +97,38 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
   letter-spacing: -0.03em;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+  text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.1),
+               0 0 .5rem rgba(181, 232, 83, 0.1),
+               0 0 1rem rgba(181, 232, 83, 0.1);
 }
 
 #main_content h1 {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 #main_content h2 {
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 #main_content h3 {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 #main_content h4 {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 #main_content h5 {
-  font-size: 12px;
+  font-size: 1.2rem;
   text-transform: uppercase;
-  margin: 0 0 5px 0;
+  margin: 0 0 .5rem 0;
 }
 
 #main_content h6 {
-  font-size: 12px;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: #999;
-  margin: 0 0 5px 0;
+  margin: 0 0 .5rem 0;
 }
 
 dt {
@@ -131,11 +143,11 @@ ul li {
 ul li:before {
   content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 13px;
+  font-size: 1.3rem;
   color: #b5e853;
-  margin-left: -37px;
-  margin-right: 21px;
-  line-height: 16px;
+  margin-left: -3.7rem;
+  margin-right: 2.1rem;
+  line-height: 1.6rem;
 }
 
 blockquote {
@@ -146,13 +158,13 @@ blockquote {
 
 pre {
   background: rgba(0, 0, 0, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 10px;
-  font-size: 14px;
+  border: .1rem solid rgba(255, 255, 255, 0.15);
+  padding: 1rem;
+  font-size: 1.4rem;
   color: #b5e853;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -webkit-border-radius: .2rem;
   text-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
@@ -160,23 +172,23 @@ pre {
 
 table {
   width: 100%;
-  margin: 0 0 20px 0;
+  margin: 0 0 .2rem 0;
 }
 
 th {
   text-align: left;
-  border-bottom: 1px dashed #b5e853;
-  padding: 5px 10px;
+  border-bottom: .1rem dashed #b5e853;
+  padding: .5rem 1rem;
 }
 
 td {
-  padding: 5px 10px;
+  padding: .5rem 1rem;
 }
 
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: .1rem dashed #b5e853;
   color: #b5e853;
 }
 
@@ -186,18 +198,18 @@ hr {
 .btn {
   display: inline-block;
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
-  padding: 8px 18px;
-  border-radius: 50px;
-  border: 2px solid rgba(0, 0, 0, 0.7);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
-  border-top: 2px solid rgba(0, 0, 0, 1);
+  padding: .8rem 1.8rem;
+  border-radius: 5rem;
+  border: .2rem solid rgba(0, 0, 0, 0.7);
+  border-bottom: .2rem solid rgba(0, 0, 0, 0.7);
+  border-top: .2rem solid rgba(0, 0, 0, 1);
   color: rgba(255, 255, 255, 0.8);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 1.3rem;
   text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  text-shadow: 0 -.1rem 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 .1rem 0 rgba(255, 255, 255, 0.05);
 }
 
 .btn:hover {
@@ -206,9 +218,9 @@ hr {
 
 .btn .icon {
   display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin: 1px 8px 0 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: .1rem .8rem 0 0;
   float: left;
 }
 
@@ -217,13 +229,9 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
-/* Links
-   a, a:hover, a:visited
-*/
-
 a {
   color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-shadow: 0 0 .5rem rgba(104, 182, 255, 0.5);
 }
 
 /* Clearfix */
@@ -242,15 +250,15 @@ a {
 }
 
 body > hr {
-    margin: 60px 0 30px;
+    margin: 6rem 0 3rem;
 }
 
 #footer {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 60rem;
     width: 90%;
-    font-size: 80%;
+    font-size: 1.4rem;
 }
 header img {
-	border-radius:50%; margin: 0 0 -18px 210px;
+	border-radius:50%; margin: 0 0 -1.8rem 21rem;
 }
