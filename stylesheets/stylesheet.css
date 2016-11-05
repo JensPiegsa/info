@@ -101,7 +101,7 @@ section img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
+	font-weight: bold;
 	color: #b5e853;
 	letter-spacing: -0.03em;
 	text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.1), 0 0 .5rem rgba(181, 232, 83, 0.1), 0 0 1rem rgba(181, 232, 83, 0.1);
