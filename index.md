@@ -4,13 +4,12 @@ layout: index
 
 # About
 
-**Jens Piegsa**. Software Craftsman at the University Medicine Greifswald with experience in Java web technologies, data integration, metadata management and continuous integration, currently building the transfer unit for the NAKO health study.
+**Jens Piegsa**. Software Craftsman at the University Medicine Greifswald with experience in Java web technologies, data integration, metadata management and continuous integration, currently building the web application for the data transfer unit of the NAKO Health Study.
 
 # Stuff
 
 * [Docker Cheat Sheet](http://docker.jens-piegsa.com/)
 * [JUnit 5 - Going Green](http://junit.jens-piegsa.com/)
-
 
 # Links
 
