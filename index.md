@@ -4,7 +4,7 @@ layout: index
 
 # About
 
-Hi, I'm Jens Piegsa, a software crafter with expertise in Java web technologies, data integration, metadata management, and continuous integration. I currently work at the University Medicine Greifswald, building the web application for the data transfer unit of the NAKO Health Study. My passion for software development started during my early years and became my vocation during my time at the university. I have been constantly involved in various projects, honing my skills and gaining experience.
+Hi, I'm Jens Piegsa, a software crafter with expertise in Java web technologies, data integration, metadata management, and continuous integration. I currently work at the University Medicine Greifswald, building the web application for the data transfer unit of the NAKO Health Study. At the age of 10, I discovered my passion for software development, and it evolved into my vocation during my university years. Throughout my journey, I've had the opportunity to work on several projects, each one offering its own set of experiences and lessons.
 
 # Stuff
 
